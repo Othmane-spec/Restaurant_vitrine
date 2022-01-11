@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&display=swap");
+
+h2 {
+  font-family: "Dancing Script";
+  color: #25221f;
+}
+
+p {
+  font-family: "Open Sans";
+  opacity: 0.8;
+}
+
+.title {
+  font-family: "Dancing Script";
+}
+
+.big-title span {
+  color: #ffc300;
+}
+
+.big-title2 h2 {
+  color: #fff;
+}
+
+.big-title2 span {
+  color: #ffc300;
+}
+
+/* Navbar */
+
+.navbar {
+  background: rgb(34, 31, 28, 0.99);
+}
+
+.nav a {
+  font-family: "Open Sans";
+}
+
+.nav .active {
+  color: #ffc300;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #ffc300;
+}
+
+.btn-book {
+  background: #ffc300;
+  border-radius: 35px;
+}
+
+/* Carsoul */
+
+.carousel-item {
+  height: 32em;
+  background: #777;
+  color: white;
+  position: relative;
+}
+
+.container {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.home-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-content .btn {
+  border-radius: 30px;
+}
+
+.home-content span {
+  font-family: "Dancing Script";
+  color: #ffc300;
+}
+
+.overlay-image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+/* main */
+
+.container-about {
+  background: rgb(255, 195, 0, 0.2);
+}
+
+.text-para {
+  font-weight: bold;
+  color: black;
+}
+
+.text-para i {
+  color: #ffc300;
+}
+
+/* section2 */
+
+.card {
+  box-shadow: 0 5px 20px #777;
+}
+.card-body {
+  margin: 10px 20px;
+}
+
+.card-body span {
+  color: #ffc300;
+}
+
+.card h3 {
+  font-family: "Dancing Script";
+}
+
+/* section3 */
+
+.btn-menu .btn {
+  border: 2px solid #ffc300;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+.btn-menu .active {
+  color: #fff;
+  background: #ffc300;
+}
+
+/* Our menu */
+
+.menu-restaurant {
+  position: relative;
+}
+
+.menu-restaurant .menu-title {
+  font-family: "Open Sans";
+  text-decoration: none;
+  color: #ffc300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.menu-restaurant .menu-line {
+  position: absolute;
+  border-bottom: 1px dotted rgb(0, 0, 0, 0.3);
+  bottom: 40px;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+}
+.menu-restaurant .menu-price {
+  font-weight: 600;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.menu-restaurant .menu-subtitle {
+  color: #b1b1b1;
+  font-size: 1.2rem;
+}
+
+/* section4 */
+
+.check-special {
+  font-family: "Open Sans";
+  font-weight: 700;
+  line-height: 2.5em;
+  font-size: large;
+}
+
+.check-special .active {
+  color: #ffc300;
+}
+
+.line {
+  border-left: 4px solid #ffc300;
+  height: 30px;
+}
+
+.line1 {
+  border-left: 4px solid #777;
+  height: 190px;
+}
+
+/* section5 */
+.section5 {
+  background: #777;
+}
+
+.birth span {
+  font-family: "Dancing Script";
+  color: #ffc300;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+.cost span {
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+.line3 {
+  border-bottom: 2px solid #ffc300;
+  width: 55px;
+}
+
+.text-event i {
+  color: #ffc300;
+}
+
+/* section 6 */
+
+.btn-form .btn {
+  color: #fff;
+  background: #ffc300;
+  border-radius: 30px;
+}

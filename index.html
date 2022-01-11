@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Restaurant</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar ">
+            <div class="container header py-3">
+                <a href="#" class="title text-white text-decoration-none fs-1">Delicious</a>
+
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white ">Specials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">Chefs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">Gallery</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Drop Down
+                        </a>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Another action</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Contact</a>
+                    </li>
+
+
+                    <div class="btn-book">
+                        <a class="btn text-white" href="#" role="button">Ma condidature</a>
+                    </div>
+
+                </ul>
+            </div>
+
+
+        </nav>
+        <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active " data-interval="2000">
+                    <div class="overlay-image" style="background-image: url(./img/dan-gold-E6HjQaB7UEA-unsplash.jpg);">
+                    </div>
+                    <div class="container position-absolute text-center">
+                        <div class="home-content">
+                            <h1><span>Delicious</span> Restauraunt</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus dolorem, unde
+                                asperiores vel
+                                dolores in
+                                exercitationem voluptates possimus consequatur facere delectus, recusandae fuga
+                                reprehenderit fugit
+                                a neque
+                                minus distinctio magni!</p>
+                            <a href="#" class="btn btn-outline-warning text-white">OUR MENU</a>
+                            <a href="#" class="btn btn-outline-warning text-white">BOOK A TABLE</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-interval="1000">
+                    <div class="overlay-image"
+                        style="background-image: url(./img/patrick-tomasso-GXXYkSwndP4-unsplash.jpg);">
+                    </div>
+
+                    <div class="container position-absolute text-center">
+                        <div class="home-content">
+                            <h1><span>Delicious</span> Restauraunt</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus dolorem, unde
+                                asperiores vel
+                                dolores in
+                                exercitationem voluptates possimus consequatur facere delectus, recusandae fuga
+                                reprehenderit fugit
+                                a neque
+                                minus distinctio magni!</p>
+                            <a href="#" class="btn btn-outline-warning text-white">OUR MENU</a>
+                            <a href="#" class="btn btn-outline-warning text-white">BOOK A TABLE</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="carousel-item " data-interval="1000">
+                    <div class="overlay-image"
+                        style="background-image: url(./img/shawnanggg-nmpW_WwwVSc-unsplash.jpg);"></div>
+
+                    <div class="container position-absolute text-center">
+                        <div class="home-content">
+                            <h1><span>Delicious</span> Restauraunt</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus dolorem, unde
+                                asperiores vel
+                                dolores in
+                                exercitationem voluptates possimus consequatur facere delectus, recusandae fuga
+                                reprehenderit fugit
+                                a neque
+                                minus distinctio magni!</p>
+                            <a href="#" class="btn btn-outline-warning text-white">OUR MENU</a>
+                            <a href="#" class="btn btn-outline-warning text-white">BOOK A TABLE</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </header>
+
+    <main>
+        <!-- section1 -->
+        <section class="container-fluid container-about">
+            <div class="row mb-5">
+                <div class="col-md-6  mt-5">
+                    <img src="img/repas.jpg" alt="repas" class="w-75 h-100">
+                </div>
+
+                <div class="col-md-6  mt-5 text-start ">
+                    <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed! Lorem, ipsum dolor ?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet vel ipsa voluptas debitis quasi
+                        doloribus totam distinctio quae harum doloremque a dolor, voluptate non illum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates repellendus debitis
+                        repudiandae
+                        Lorem, ipsum dolor Lorem, ipsum.</p>
+
+                    <div class="text-para">
+                        <p><i class="bi bi-check-all"></i> Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <p><i class="bi bi-check-all"></i> Lorem ipsum dolor sit amet consectetur.</p>
+                        <p><i class="bi bi-check-all"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Natus
+                            maxime iure maiores id. Dolorem ex error saepe nihil, harum ipsum?</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia a at officia ipsam nisi ipsa
+                        aliquam
+                        quae rerum laboriosam, sapiente culpa quis, magni recusandae dolorum?</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- section2 -->
+
+        <section class="mt-5">
+            <div class="container restaurant ">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="big-title">
+                            <h2>Why choose <span>Our Restaurant</span></h2>
+
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,<br> a veniam! Ullam in
+                            molestiae dolore?</p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <span class="card-title fs-3 fw-bold">01</span>
+                                <h3 class="card-subtitle mt-3 mb-4 ">Lorem ipsum</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.
+                                    Distinctio, cum. <br> Lorem ipsum dolor sit. </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <span class="card-title fs-3 fw-bold">01</span>
+                                <h3 class="card-subtitle mt-3 mb-4 ">Repetta Nichi</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.
+                                    Distinctio, cum. <br> Lorem ipsum dolor sit. </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <span class="card-title fs-3 fw-bold">01</span>
+                                <h3 class="card-subtitle mt-3 mb-4 ">Advanced Velit</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.
+                                    Distinctio, cum. <br> Lorem ipsum dolor sit. </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- section3 -->
+
+        <section>
+            <div class="container menu mt-5">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="big-title">
+                            <h2>Check our tasty <span>Menu</span></h2>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="btn-menu mt-3">
+                            <a href="#" class="btn active">Show All</a>
+                            <a href="#" class="btn">Shortcus</a>
+                            <a href="#" class="btn">Salad</a>
+                            <a href="#" class="btn">Speciality</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mt-5">
+                            <div class="menu-restaurant">
+                                <div class="breakfast menu-restaurant">
+                                    <span class="clearfix">
+                                        <a href="#" class="menu-title">Food Item Name</a>
+                                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                                        <span class="menu-price">$10.99</span><br>
+                                        <span class="menu-subtitle">Lorem ipsum dolor sit amet consectetur</span>
+                                    </span>
+                                </div>
+
+
+                                <div class="breakfast menu-restaurant">
+                                    <span class="clearfix">
+                                        <a href="#" class="menu-title">Food Item Name</a>
+                                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                                        <span class="menu-price">$10.99</span><br>
+                                        <span class="menu-subtitle">Lorem ipsum dolor sit amet consectetur</span>
+                                    </span>
+                                </div>
+
+                                <div class="breakfast menu-restaurant">
+                                    <span class="clearfix">
+                                        <a href="#" class="menu-title">Food Item Name</a>
+                                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                                        <span class="menu-price">$10.99</span><br>
+                                        <span class="menu-subtitle">Lorem ipsum dolor sit amet consectetur</span>
+                                    </span>
+                                </div>
+
+                                <div class="breakfast menu-restaurant">
+                                    <span class="clearfix">
+                                        <a href="#" class="menu-title">Food Item Name</a>
+                                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                                        <span class="menu-price">$10.99</span><br>
+                                        <span class="menu-subtitle">Lorem ipsum dolor sit amet consectetur</span>
+                                    </span>
+                                </div>
+
+                                <div class="breakfast menu-restaurant">
+                                    <span class="clearfix">
+                                        <a href="#" class="menu-title">Food Item Name</a>
+                                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                                        <span class="menu-price">$10.99</span><br>
+                                        <span class="menu-subtitle">Lorem ipsum dolor sit amet consectetur</span>
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6 mt-4">
+                            <div class="menu-restaurant">
+                                <div class="breakfast menu-restaurant">
+                                    <span class="clearfix">
+                                        <a href="#" class="menu-title">Food Item Name</a>
+                                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                                        <span class="menu-price">$10.99</span><br>
+                                        <span class="menu-subtitle">Lorem ipsum dolor sit amet consectetur</span>
+                                    </span>
+                                </div>
+
+
+                                <div class="breakfast menu-restaurant">
+                                    <span class="clearfix">
+                                        <a href="#" class="menu-title">Food Item Name</a>
+                                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                                        <span class="menu-price">$10.99</span><br>
+                                        <span class="menu-subtitle">Lorem ipsum dolor sit amet consectetur</span>
+                                    </span>
+                                </div>
+
+                                <div class="breakfast menu-restaurant">
+                                    <span class="clearfix">
+                                        <a href="#" class="menu-title">Food Item Name</a>
+                                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                                        <span class="menu-price">$10.99</span><br>
+                                        <span class="menu-subtitle">Lorem ipsum dolor sit amet consectetur</span>
+                                    </span>
+                                </div>
+
+                                <div class="breakfast menu-restaurant">
+                                    <span class="clearfix">
+                                        <a href="#" class="menu-title">Food Item Name</a>
+                                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                                        <span class="menu-price">$10.99</span><br>
+                                        <span class="menu-subtitle">Lorem ipsum dolor sit amet consectetur</span>
+                                    </span>
+                                </div>
+
+                                <div class="breakfast menu-restaurant">
+                                    <span class="clearfix">
+                                        <a href="#" class="menu-title">Food Item Name</a>
+                                        <span style="left: 166px; right: 44px;" class="menu-line"></span>
+                                        <span class="menu-price">$10.99</span><br>
+                                        <span class="menu-subtitle">Lorem ipsum dolor sit amet consectetur</span>
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- section4 -->
+
+        <section>
+            <div class="container Specials mt-5">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="big-title">
+                            <h2>Check our <span>Specials</span></h2>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing <br> elit. Consectetur quasi incidunt
+                            iusto, vel
+                            quae repellendus non.</p>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-3">
+                        <div class="check-special">
+                            <span class="active">Lorem ipsum</span><br>
+                            <span>Lorem ipsum dolor</span><br>
+                            <span>Lorem ipsum vel</span><br>
+                            <span>Lorem ipsum dolor</span><br>
+                            <span>Lorem ipsum dolor</span><br>
+                        </div>
+                    </div>
+
+                    <div class="col-md-1">
+                        <div class="line"></div>
+                        <div class="line1"></div>
+                    </div>
+
+                    <div class="col-md-5 text-start">
+                        <div class="architect">
+                            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt itaque quidem minus
+                                dolores,
+                                facilis quam?</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem perspiciatis
+                                reprehenderit
+                                nemo, sed quod
+                                dolor asperiores tempore quibusdam, magni, aspernatur dolorum. Rerum vitae at tempora
+                                quos
+                                corporis
+                                doloribus quasi quas.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mt-4">
+                        <img src="img/repas2.jpg" alt="100x100" class="rounded-circle w-50 h-75 ms-5">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section5 -->
+        <section class="section5 mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center mt-5">
+                        <div class="big-title2">
+                            <h2>Organize Your <span>Events</span> in our Restaurant</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 mt-4">
+                        <img src="img/event-cake.jpg" alt="event cake" class="w-75">
+                    </div>
+
+                    <div class="col-md-5 mt-4">
+                        <div class="birth">
+                            <span>Birthday Parties</span>
+                        </div>
+                        <div class="cost">
+                            <span>$189
+                                <div class="line3"></div>
+                            </span>
+                        </div>
+                        <div class="text-event text-white">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus facilis sequi sunt
+                                dolorum libero in quam
+                                suscipit eaque dolores.</p>
+                            <br>
+                            <p><i class="bi bi-check-circle"></i> Lorem ipsum dolor sit amet consectetur adipisicing.
+                            </p>
+                            <p><i class="bi bi-check-circle"></i> Lorem ipsum dolor sit amet consectetur.</p>
+                            <p><i class="bi bi-check-circle"></i> Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit.</p>
+                            <br>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus assumenda
+                                temporibus deleniti quaerat
+                                similique esse nulla sapiente illo dolores illum. Lorem, ipsum.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <img src="img/event-cake1.jpg" alt="" class="w-100">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- section6 -->
+
+        <section class="bg-white">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="big-title ">
+                            <h2>Book a <span>Table</span></h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing Dolores atque <br>quaerat sed? Lorem,
+                            ipsum dolor.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-8 offset-2">
+                        <div class="signup-form">
+                            <form action="" class="mt-5 border p-4 bg-light shadow">
+                                <div class="row">
+                                    <div class="mb-3 col-md-4">
+                                        <label>First Name</label>
+                                        <input type="text" name="fname" placeholder="Name" class="form-control">
+                                    </div>
+
+                                    <div class="mb-3 col-md-4">
+                                        <label>Last Name</label>
+                                        <input type="text" name="Lname" placeholder="last name" class="form-control">
+                                    </div>
+
+                                    <div class="mb-3 col-md-4">
+                                        <label>Your email</label>
+                                        <input type="email" name="email" placeholder="email" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="mb-3 col-md-4">
+                                        <label>Your email</label>
+                                        <input type="email" name="email" placeholder="email" class="form-control">
+                                    </div>
+
+                                    <div class="mb-3 col-md-4">
+                                        <label>Your email</label>
+                                        <input type="email" name="email" placeholder="email" class="form-control">
+                                    </div>
+
+                                    <div class="mb-3 col-md-4">
+                                        <label>Your email</label>
+                                        <input type="email" name="email" placeholder="email" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="mb-3 col-md-12">
+                                        <textarea name="Message" id="" cols="107" rows="10"
+                                            placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <div class="btn-form">
+                                            <button class="btn">Send Message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+    </main>
+
+
+
+
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
